@@ -1,12 +1,12 @@
 import ParentComponent from '../components/parent-component.js';
-import SignalCounter from '../components/signal-counter.js';
-import StateCounter from '../components/react-component.js';
+import SignalParentComponent from '../components/signal-parent-component.js';
+import StateParentComponent from '../components/state-parent-component.js';
 
 const Page = async () => {
   return (
     <>
-      <SignalCounter />
-      <StateCounter />
+      <SignalParentComponent />
+      <StateParentComponent />
       <ParentComponent />
     </>
   );
