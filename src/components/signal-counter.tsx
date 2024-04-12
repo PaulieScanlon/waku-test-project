@@ -9,7 +9,7 @@ const SignalCounter = () => {
   const inc = () => counter.set(counter.get() + 1);
   return (
     <>
-      <div>Count: {count}</div>
+      <div>useSignal Count: {count}</div>
       <button type='button' onClick={inc} className='bg-blue-500 rounded px-4 py-2 text-white font-medium'>
         Update count
       </button>
