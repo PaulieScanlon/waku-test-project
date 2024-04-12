@@ -1,4 +1,4 @@
-const ChildComponent = async () => {
+const RSCChildComponent = async () => {
   const response = await fetch('https://api.github.com/repos/dai-shi/waku');
   const data = await response.json();
 
@@ -10,4 +10,4 @@ const ChildComponent = async () => {
   );
 };
 
-export default ChildComponent;
+export default RSCChildComponent;
