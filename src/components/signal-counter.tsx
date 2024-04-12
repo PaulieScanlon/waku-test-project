@@ -1,4 +1,4 @@
-'use-client';
+'use client';
 
 import { Signal, useSignal } from 'use-signals';
 
@@ -10,8 +10,8 @@ const SignalCounter = () => {
   return (
     <>
       <div>Count: {count}</div>
-      <button type='button' onClick={inc}>
-        +1
+      <button type='button' onClick={inc} className='bg-blue-500 rounded px-4 py-2 text-white font-medium'>
+        Update count
       </button>
     </>
   );
